@@ -1,3 +1,7 @@
+# LDAP-Injection-Vuln-App
+### What's LDAP Injection
+[LDAP injection](https://en.wikipedia.org/wiki/LDAP_injection)
+
 ### Introduction
 #### Run LDAP Server
 ```
