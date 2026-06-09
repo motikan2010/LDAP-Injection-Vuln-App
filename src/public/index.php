@@ -52,7 +52,7 @@ if (isset($_POST["login"])) {
 ?>
 
 <html>
-<?= $_SESSION["USERID"] ?>さん こんにちは
+<?= $_SESSION["USERID"] ?? "" ?>さん こんにちは
 <form action="/" method="POST">
     <label>User ID: </label><input type="text" name="user_id"/>
     <label>Password: </label><input type="password" name="password"/>
